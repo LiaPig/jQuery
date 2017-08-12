@@ -1,0 +1,127 @@
+#liaProitem {
+    float: left;
+    width: 312px;
+    height: 560px;
+    display: inline;
+}
+
+#liaDetails {
+    float: left;
+    display: inline;
+    overflow: hidden;
+    width: 808px;
+}
+
+#liaProitem .liazoomWrap {
+    border: 1px solid #BBBBBB;
+    cursor: pointer;
+    float: left;
+    padding: 0;
+    position: relative;
+}
+
+#liaProitem span {
+    clear: both;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    width: 320px;
+}
+
+#liaProitem ul.imgList {
+    height: 80px;
+}
+
+#liaProitem ul.imgList li {
+    float: left;
+    margin-right: 10px;
+}
+
+#liaProitem ul.imgList li img {
+    width: 60px;
+    height: 60px;
+    padding: 1px;
+    background: #EEE;
+    cursor: pointer;
+}
+
+#liaProitem ul.imgList li img:hover {
+    padding: 1px;
+    background: #999;
+}
+
+.tab {
+    clear: both;
+    float: left;
+    height: 230px;
+    overflow: hidden;
+    width: 310px;
+}
+
+.tab .tab_menu {
+    clear: both;
+}
+
+.tab .tab_menu li {
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+    padding: 1px 6px;
+    margin-right: 4px;
+    background: #F1F1F1;
+    border: 1px solid #898989;
+    border-bottom: none;
+}
+
+.tab .tab_menu li.hover {
+    background: #DFDFDF;
+}
+
+.tab .tab_menu li.selected {
+    color: #FFF;
+    background: #6D84D4;
+}
+
+.tab .tab_box {
+    clear: both;
+    border: 1px solid #898989;
+}
+
+.tab .hide{
+    display: none;
+}
+
+#liaDetails h1{
+    height: 43px;
+    font-size: 22px;
+    line-height: 43px;
+    border-bottom: 1px solid #DFDFDF;
+    text-indent: 42px;
+}
+
+#liaDetails h2{
+    height: 43px;
+    line-height: 43px;
+    text-indent: 22px;
+    color: orangered;
+}
+
+#liaDetails span{
+    height: 43px;
+    font-size: 20px;
+    line-height: 43px;
+    text-indent: 22px;
+    color: black;
+    padding-left: 22px;
+}
+
+#liaDetails span.price{
+    height: 43px;
+    font-size: 26px;
+    line-height: 43px;
+    text-indent: 22px;
+    color: red;
+    padding-left: 22px;
+}

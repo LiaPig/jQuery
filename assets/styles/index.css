@@ -1,0 +1,226 @@
+
+
+#liaImageroll {
+    float: left;
+    height: 320px;
+    margin: 0 11px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 850px;
+}
+
+#liaImageroll img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#liaImageroll div {
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    float: left;
+}
+
+#liaImageroll div a {
+    background-color: #444444;
+    color: #ffffff;
+    display: inline-block;
+    float: left;
+    height: 32px;
+    margin-right: 1px;
+    overflow: hidden;
+    padding: 5px 15px;
+    text-align: center;
+    width: 252px;
+}
+
+#liaImageroll div a:hover {
+    text-decoration: none;
+}
+
+#liaImageroll div a em {
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    overflow: hidden;
+    width: 252px;
+}
+
+#liaImageroll .last {
+    margin: 0;
+    width: 254px;
+}
+
+#liaNotice {
+    float: left;
+    height: 321px;
+    overflow: hidden;
+    width: 290px;
+}
+
+#liaMiaosha {
+    float: left;
+    height: 176px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 260px;
+}
+
+#liaNoticeInfo {
+    float: left;
+    border: 1px solid #DFDFDF;
+    height: 133px;
+    overflow: hidden;
+    width: 258px;
+}
+
+#liaNoticeInfo h2 {
+    height: 23px;
+    line-height: 23px;
+    border-bottom: 1px solid #DFDFDF;
+    text-indent: 12px;
+}
+
+#liaNoticeInfo ul {
+    float: left;
+    padding: 6px 2px 0 12px;
+}
+
+#liaNoticeInfo li {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+#liaNoticeInfo li a {
+    color: #008CD7;
+}
+
+#liaNoticeInfo li a:hover {
+    color: #666666;
+    text-decoration: none;
+}
+
+#liaBrand {
+    float: left;
+    height: 230px;
+    margin: 10px 0 0;
+    overflow: hidden;
+    width: 1090px;
+}
+
+#liaBrandTab {
+    border-bottom: 1px solid #E4E4E4;
+    height: 29px;
+    position: relative;
+    width: 1090px;
+    float: left;
+}
+
+#liaBrandTab h2 {
+    height: 29px;
+    line-height: 29px;
+    left: 0;
+    position: absolute;
+    width: 100px;
+}
+
+#liaBrandTab ul {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+#liaBrandTab li {
+    float: right;
+    margin: 0 10px 0 0;
+}
+
+#liaBrandTab li a {
+    background-color: #E4E4E4;
+    color: #000000;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding:  0 10px;
+}
+
+#liaBrandTab .chos {
+    padding-bottom: 3px;
+}
+
+#liaBrandTab .chos a {
+    background-color: #FA5889;
+    color: #ffffff;
+    outline: 0 none;
+}
+
+#liaBrandContent {
+    float: left;
+    height: 400px;
+    overflow: hidden;
+    margin: 8px 5px;
+    width: 1090px;
+    position: relative;
+}
+
+#liaBrandList {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3200px;
+}
+
+#liaBrandContent li {
+    float: left;
+    height: 188px;
+    overflow: hidden;
+    padding: 0 45px;
+    position: relative;
+    width: 185px;
+}
+
+#liaBrandContent li img {
+    left: 45px;
+    position: absolute;
+    top: 0;
+}
+
+#liaBrandContent li span {
+    background-color: #EFEFEF;
+    bottom: 0;
+    color: #666666;
+    display: block;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 188px;
+}
+
+#liaBrandContent li a {
+    color: #666666;
+}
+
+#liaBrandContent li a:hover {
+    color: #008CD7;
+    text-decoration: none;
+}
+
+#tooltip {
+    position: absolute;
+    border: 1px solid #333;
+    background: #f7f5d1;
+    padding: 1px;
+    color: #333;
+    display: none;
+}
+
+.imageOver {
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+

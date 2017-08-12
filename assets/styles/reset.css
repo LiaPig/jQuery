@@ -1,0 +1,254 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,
+    blockquote, dl,dt,dd,ul,ol, li,
+    pre,form,fieldset,legend,button,input,textarea,th,td{
+        margin: 0;
+        padding: 0;
+}
+
+body,button,input,select,textarea{
+    font: 12px/1.5 tahoma,arial,\5b8b\4f53;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: 100%;
+}
+
+address,cite,dfn,em,var{
+    font-style: normal;
+}
+
+code,kbd,pre,samp{
+    font-family: "Courier New","Courier",monospace;
+}
+
+small{
+    font-size: 12px;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+sup{
+    vertical-align: text-top;
+}
+
+sub{
+    vertical-align: text-bottom;
+}
+
+legend{
+    color: #000;
+}
+
+fieldset,img{
+    border: 0;
+}
+
+button,input,select,textarea{
+    font-size: 100%;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clear{
+    clear: both;
+    float: none;
+    height: 0;
+    overflow: hidden;
+}
+
+html .hide{
+    display: none;
+}
+
+#header {
+    background: url("../images/headerbg.png") repeat-x scroll 0 0 #FFFFFF;
+    height: 105px;
+}
+
+#header .conWidth {
+    position: relative;
+    height: 105px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 100;
+}
+
+#header .logo {
+    float: left;
+    margin: 0 0 0 10px;
+    color: #FFF;
+    line-height: 80px;
+}
+
+#header .search{
+    float: right;
+    right: 48px;
+    top: 20px;
+    position: absolute;
+}
+
+#header .search .search_input {
+    width: 200px;
+}
+
+.mainNav {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    height: 37px;
+    line-height: 37px;
+    width: 100%;
+    z-index: 100;
+    background-color: #0000ff;
+}
+
+.mainNav .nav {
+    display: inherit;
+    float: left;
+    margin-left: 25px;
+}
+
+.mainNav ul li {
+    float: left;
+    display: inline;
+    margin-right: 14px;
+    position: relative;
+    z-index: 100;
+}
+
+.mainNav ul li a {
+    display: block;
+    padding: 0 8px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+}
+
+.liaNav {
+    background: #FFFFFF;
+    border: 1px solid #B1B1B1;
+    border-top: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 37px;
+    left: 0;
+    width: 474px;
+    z-index: 1000;
+    display: none;
+}
+
+.liaNav .subitem {
+    float: left;
+    height: auto !important;
+    min-height: 100px;
+    padding: 10px 12px;
+    width: 450px;
+}
+
+.liaNav .subitem dl {
+    border-top: 1px dashed #C4C4C4;
+    overflow: hidden;
+    padding: 8px 0;
+    float: left;
+}
+
+.liaNav .subitem dt {
+    float: left;
+    font-weight: bold;
+    line-height: 16px;
+    padding: 4px 3px;
+    text-align: center;
+    width: 90px;
+}
+
+.liaNav .subitem dd {
+    float: left;
+    overflow: hidden;
+    padding: 0;
+    width: 364px;
+}
+
+.liaShop {
+    padding-top: 10px;
+}
+
+#liaCatalog {
+    float: left;
+    height: 560px;
+    margin: 0 11px 0 0;
+    overflow: hidden;
+    width: 187px;
+}
+
+#liaCatalog h2 {
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 12px;
+    text-indent: 13px;
+    background-color: #6E6E6E;
+}
+
+.liaCatainfo {
+    border: 1px solid #6E6E6E;
+    height: 524px;
+    overflow: hidden;
+    padding: 5px 10px 0;
+    width: 165px;
+}
+
+.liaCatainfo h3 {
+    border-bottom: 1px solid #EEEEEE;
+    height: 24px;
+    line-height: 24px;
+    width: 164px;
+}
+
+.liaCatainfo ul {
+    float: left;
+    padding: 0 2px 8px;
+}
+
+.liaCatainfo li {
+    color: #AEADAE;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    width: 79px;
+    overflow: hidden;
+    position: relative;
+}
+
+.liaCatainfo li a {
+    color: #0000ff;
+}
+
+.liaCatainfo li a:hover {
+    color: #444444;
+    text-decoration: none;
+}
+
+.liaCatainfo li a.promoted {
+    color: #F9044E;
+}
+
+.liaCatainfo li .hot {
+    background: url("../images/hot.jpg") no-repeat scroll 0 0 transparent;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    width: 21px;
+}

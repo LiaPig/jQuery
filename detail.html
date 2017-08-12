@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <link href="assets/styles/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/styles/detail.css" rel="stylesheet" type="text/css"/>
+    <title>商品详情</title>
+</head>
+<body>
+    <!--头部开始-->
+    <div id="header">
+        <!--头部主要有三块内容：Logo、搜索框和导航菜单-->
+        <div class="conWidth">
+            <!--logo开始-->
+            <a href="#" class="logo">
+                <img src="assets/images/logo.jpg" alt="Lia Shop"/>
+            </a>
+            <!--logo结束-->
+
+            <!--搜索框开始-->
+            <div class="search">
+                <input id="inputSearch" class="search_input" value="输入商品名称"/>
+            </div>
+            <!--搜索框结束-->
+
+            <!--导航菜单开始-->
+            <div class="mainNav" id="nav">
+                <ul class="nav">
+                    <li>
+                        <a href="#">首页</a>
+                        <div class="jnNav" style="display: none;">
+                            <div class="subitem">
+                                <dl>
+                                    <dt></dt>
+                                    <dd></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">品牌</a>
+                        <div class="jnNav" style="display: none;">
+                            <div class="subitem">
+                                <dl>
+                                    <dt></dt>
+                                    <dd></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">女装</a>
+                        <div class="jnNav" style="display: none;">
+                            <div class="subitem">
+                                <dl>
+                                    <dt></dt>
+                                    <dd></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">男装</a>
+                        <div class="jnNav" style="display: none;">
+                            <div class="subitem">
+                                <dl>
+                                    <dt></dt>
+                                    <dd></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">鞋包配饰</a>
+                        <div class="jnNav" style="display: none;">
+                            <div class="subitem">
+                                <dl>
+                                    <dt></dt>
+                                    <dd></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--导航菜单结束-->
+        </div>
+    </div>
+    <!--头部结束-->
+
+    <!--主体内容开始-->
+    <div id="content">
+        <div class="liaShop">
+            <!--商品分类开始-->
+            <div id="liaCatalog">
+                <h2 title="商品分类">商品分类</h2>
+                <div class="liaCatainfo">
+                    <h3>推荐品牌</h3>
+                    <ul>
+                        <li><a href="#">耐克</a></li>
+                        <li><a href="#" class="promoted">阿迪达斯</a><span class="hot"></span></li>
+                        <li><a href="#">达芙妮</a></li>
+                        <li><a href="#">李宁</a></li>
+                        <li><a href="#">安踏</a></li>
+                        <li><a href="#">奥康</a></li>
+                        <li><a href="#" class="promoted">骆驼</a><span class="hot"></span></li>
+                        <li><a href="#">特步</a></li>
+                    </ul>
+                    <br class="clear"/>
+                    <h3>女装</h3>
+                    <ul>
+                        <li><a href="#">呢大衣</a></li>
+                        <li><a href="#">T恤</a></li>
+                        <li><a href="#">羽绒</a></li>
+                        <li><a href="#">衬衫</a></li>
+                        <li><a href="#">羊绒衫</a></li>
+                        <li><a href="#">针织</a></li>
+                        <li><a href="#">连衣裙</a></li>
+                        <li><a href="#">皮外套</a></li>
+                    </ul>
+                    <br class="clear"/>
+                    <h3>男装</h3>
+                    <ul>
+                        <li><a href="#">衬衫</a></li>
+                        <li><a href="#">T恤</a></li>
+                        <li><a href="#">夹克</a></li>
+                        <li><a href="#">大皮衣</a></li>
+                        <li><a href="#">风衣</a></li>
+                        <li><a href="#">牛仔裤</a></li>
+                        <li><a href="#">西装</a></li>
+                        <li><a href="#">卫衣</a></li>
+                    </ul>
+                    <br class="clear"/>
+                    <h3>鞋包搭配</h3>
+                    <ul>
+                        <li><a href="#">围巾</a></li>
+                        <li><a href="#">旅行箱</a></li>
+                        <li><a href="#">真皮包</a></li>
+                        <li><a href="#">韩版</a></li>
+                        <li><a href="#">达芙妮</a></li>
+                        <li><a href="#">单肩包</a></li>
+                        <li><a href="#">毛线</a></li>
+                        <li><a href="#">清仓靴子</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--商品分类结束-->
+
+            <div id="liaProitem">
+                <div class="liazoomWrap">
+                    <img src="assets/images/detail_sm.jpg"/>
+                    <br class="clear"/>
+                    <span><a href="#">观看清晰图片</a></span>
+                    <ul class="imgList">
+                        <li><img src="assets/images/detail_sm1.jpg"/></li>
+                        <li><img src="assets/images/detail_sm2.jpg"/></li>
+                        <li><img src="assets/images/detail_sm3.jpg"/></li>
+                    </ul>
+                    <div class="tab">
+                        <div class="tab_menu">
+                            <ul>
+                                <li class="selected">产品属性</li>
+                                <li>产品型号</li>
+                                <li>价格说明</li>
+                            </ul>
+                        </div>
+                        <div class="tab_box">
+                            <div>保护套质地: 硅胶,款式: 保护壳,指环风格: 卡通,保护套质地: 硅胶,款式: 保护壳,指环风格: 卡通,保护套质地: 硅胶,款式: 保护壳,指环风格: 卡通,保护套质地: 硅胶保护套质地: 硅胶,款式: 保护壳,指环风格: 卡通,保护套质地: 硅胶保护套质地: 硅胶,款式: 保护壳,指环风格: 卡通,保护套质地: 硅胶</div>
+                            <div class="hide">适用手机机型: Apple/苹果,型号: iphone6 plus,品牌: 邹记壳铺,型号: iphone6/6s全系iphone7全系</div>
+                            <div class="hide">指商品的专柜价、吊牌价、正品零售价、厂商指导价或该商品的曾经展示过的销售价等，并非原价，仅供参考。此说明仅当出现价格比较时有效，具体请参见《淘宝价格发布规范》。若商家单独对划线价格进行说明的，以商家的表述为准。</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="liaDetails">
+                <h1>西瓜菠萝iphone6手机壳7plus指环支架苹果6s保护套硅胶水果创意</h1>
+                <h2>优惠信息：1.单笔订单满48元减5元；亲，快下手吧！2.单笔订单满74元减9元；亲，快下手吧！</h2>
+                <span>价格：</span><span class="price">27.00</span><span>元</span>
+            </div>
+        </div>
+
+
+    </div>
+    <!--主体内容结束-->
+
+    <div id="footer"></div>
+</body>
+</html>

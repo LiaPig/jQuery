@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <link href="assets/styles/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/styles/index.css" rel="stylesheet" type="text/css"/>
+    <script src="assets/scripts/index.js"></script>
+    <title>Lia Shopping</title>
+</head>
+<body>
+    <!--头部开始-->
+    <div id="header">
+        <!--头部主要有三块内容：Logo、搜索框和导航菜单-->
+        <div class="conWidth">
+            <!--logo开始-->
+            <a href="#" class="logo">
+                <img src="assets/images/logo.jpg" alt="Lia Shop"/>
+            </a>
+            <!--logo结束-->
+
+            <!--搜索框开始-->
+            <div class="search">
+                <input id="inputSearch" class="search_input" value="输入商品名称"/>
+            </div>
+            <!--搜索框结束-->
+
+            <!--导航菜单开始-->
+            <div class="mainNav" id="nav">
+                <ul class="nav">
+                    <li>
+                        <a href="#">首页</a>
+                    </li>
+                    <li>
+                        <a href="#">品牌</a>
+                        <div class="liaNav" style="display: none;">
+                            <div class="subitem">
+                                <dl>
+                                    <dt>品牌1</dt>
+                                    <dd>品牌1.1</dd>
+                                    <dd>品牌1.2</dd>
+                                    <dd>品牌1.3</dd>
+                                    <dt>品牌2</dt>
+                                    <dd>品牌2.1</dd>
+                                    <dd>品牌2.2</dd>
+                                    <dd>品牌2.3</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">女装</a>
+                        <div class="liaNav" style="display: none;">
+                            <div class="subitem">
+                                <dl>
+                                    <dt>女装1</dt>
+                                    <dd>女装1.1</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">男装</a>
+                        <div class="liaNav" style="display: none;">
+                            <div class="subitem">
+                                <dl>
+                                    <dt>男装</dt>
+                                    <dd>1</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">鞋包配饰</a>
+                        <div class="liaNav" style="display: none;">
+                            <div class="subitem">
+                                <dl>
+                                    <dt>鞋包</dt>
+                                    <dd>搭配</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--导航菜单结束-->
+        </div>
+    </div>
+    <!--头部结束-->
+
+    <!--主体内容开始-->
+    <div id="content">
+        <!--主体内容分为四个部分：商品分类、大屏广告、最新动态和品牌活动-->
+        <div class="liaShop">
+            <!--商品分类开始-->
+            <div id="liaCatalog">
+                <h2 title="商品分类">商品分类</h2>
+                <div class="liaCatainfo">
+                    <h3>推荐品牌</h3>
+                    <ul>
+                        <li><a href="#">耐克</a></li>
+                        <li><a href="#" class="promoted">阿迪达斯</a></span></li>
+                        <li><a href="#">达芙妮</a></li>
+                        <li><a href="#">李宁</a></li>
+                        <li><a href="#">安踏</a></li>
+                        <li><a href="#">奥康</a></li>
+                        <li><a href="#" class="promoted">骆驼</a></li>
+                        <li><a href="#">特步</a></li>
+                    </ul>
+                    <br class="clear"/>
+                    <h3>女装</h3>
+                    <ul>
+                        <li><a href="#">呢大衣</a></li>
+                        <li><a href="#">T恤</a></li>
+                        <li><a href="#">羽绒</a></li>
+                        <li><a href="#">衬衫</a></li>
+                        <li><a href="#">羊绒衫</a></li>
+                        <li><a href="#">针织</a></li>
+                        <li><a href="#">连衣裙</a></li>
+                        <li><a href="#">皮外套</a></li>
+                    </ul>
+                    <br class="clear"/>
+                    <h3>男装</h3>
+                    <ul>
+                        <li><a href="#">衬衫</a></li>
+                        <li><a href="#">T恤</a></li>
+                        <li><a href="#">夹克</a></li>
+                        <li><a href="#">大皮衣</a></li>
+                        <li><a href="#">风衣</a></li>
+                        <li><a href="#">牛仔裤</a></li>
+                        <li><a href="#">西装</a></li>
+                        <li><a href="#">卫衣</a></li>
+                    </ul>
+                    <br class="clear"/>
+                    <h3>鞋包搭配</h3>
+                    <ul>
+                        <li><a href="#">围巾</a></li>
+                        <li><a href="#">旅行箱</a></li>
+                        <li><a href="#">真皮包</a></li>
+                        <li><a href="#">韩版</a></li>
+                        <li><a href="#">达芙妮</a></li>
+                        <li><a href="#">单肩包</a></li>
+                        <li><a href="#">毛线</a></li>
+                        <li><a href="#">清仓靴子</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--商品分类结束-->
+
+            <!--大屏广告开始-->
+            <div id="liaImageroll">
+                <a href="#" id="lia_imgWrap">
+                    <img src="assets/images/imageroll_1.jpg" alt="A款手机壳"/>
+                    <img src="assets/images/imageroll_2.jpg" alt="B款手机壳"/>
+                    <img src="assets/images/imageroll_3.jpg" alt="C款手机壳"/>
+                </a>
+                <div>
+                    <a href="###1"><em>A款手机壳</em><em>A~~~~~~~~~</em></a>
+                    <a href="###2"><em>B款手机壳</em><em>B~~~~~~~~~</em></a>
+                    <a href="###3" class="last"><em>C款手机壳</em><em>C~~~~~~~~~</em></a>
+                </div>
+            </div>
+            <!--大屏广告结束-->
+
+            <!--最新动态开始-->
+            <div id="liaNotice">
+                <div id="liaMiaosha">
+                    <a href="#" class="JS_css3"><img src="assets/images/miaosha.png" alt="运动大牌秒杀"></a>
+                </div>
+                <div id="liaNoticeInfo">
+                    <h2 title="最新动态">最新动态</h2>
+                    <ul>
+                        <li><a href="###1" class="tooltip" title="[活动]运动大牌嗨翻夏日">[活动]运动大牌嗨翻夏日</a></li>
+                        <li><a href="###2" class="tooltip" title="[活动]千百度凉鞋新品火热让利">[活动]千百度凉鞋新品火热让利</a></li>
+                        <li><a href="###3" class="tooltip" title="[活动]COEY夏日新品全场2.3折起">[活动]COEY夏日新品全场2.3折起</a></li>
+                        <li><a href="###4" class="tooltip" title="[活动]运动大牌嗨翻夏日">[活动]运动大牌嗨翻夏日</a></li>
+                        <li><a href="###5" class="tooltip" title="[活动]千百度凉鞋新品火热让利">[活动]千百度凉鞋新品火热让利</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--最新动态结束-->
+
+            <!--品牌活动开始-->
+            <div id="liaBrand">
+                <div id="liaBrandTab">
+                    <h2 title="品牌活动">品牌活动</h2>
+                    <ul>
+                        <li><a title="运动" href="#">运动</a></li>
+                        <li><a title="女鞋" href="#">女鞋</a></li>
+                        <li><a title="男鞋" href="#">男鞋</a></li>
+                        <li><a title="童鞋" href="#">童鞋</a></li>
+                    </ul>
+                </div>
+                <div id="liaBrandContent">
+                    <div id="liaBrandList">
+                        <ul>
+                            <li>
+                                <a href="###1" class="JS_live"><img alt="耐克" src="assets/images/brandContent_nike.jpg"></a>
+                                <span><a href="###1">耐克</a></span>
+                            </li>
+                            <li>
+                                <a href="###2" class="JS_live"><img alt="阿迪达斯" src="assets/images/brandContent_adidas.jpg"></a>
+                                <span><a href="###2">阿迪达斯</a></span>
+                            </li>
+                            <li>
+                                <a href="###3" class="JS_live"><img alt="李宁" src="assets/images/brandContent_lining.jpg"></a>
+                                <span><a href="###3">李宁</a></span>
+                            </li>
+                            <li>
+                                <a href="###4" class="JS_live"><img alt="安踏" src="assets/images/brandContent_anta.jpg"></a>
+                                <span><a href="###4">安踏</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--品牌活动结束-->
+        </div>
+    </div>
+    <!--主体内容结束-->
+
+    <div id="footer"></div>
+</body>
+</html>
