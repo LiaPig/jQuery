@@ -1,6 +1,6 @@
 # jQuery
-##使用jQuery提供的方法和函数，创建了一个个性的网购网站。
-
+使用jQuery提供的方法和函数，创建了一个个性的网购网站。
+---
 在index.html 用jQuery做的功能(/assets/scripts/index.js)
 
 1.搜索框的文字效果
